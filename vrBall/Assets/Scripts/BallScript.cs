@@ -17,7 +17,7 @@ public class BallScript : MonoBehaviour {
         aS.PlayOneShot(bounce, Random.Range(0, 1.0f));
     }
 
-    public void Throw(GameObject myCont)
+    public void Throw()
     {
 
     }
