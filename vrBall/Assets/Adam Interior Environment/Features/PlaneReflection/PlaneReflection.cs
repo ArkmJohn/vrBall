@@ -471,7 +471,7 @@ m_reflectionCamera.transform.rotation = Quaternion.LookRotation(reflectedDir, sr
 			m_reflectionMap = new RenderTexture(expectedSize, expectedSize, m_reflectionCamera.actualRenderingPath == RenderingPath.Forward ? 16 : 0, RenderTextureFormat.ARGBHalf, RenderTextureReadWrite.Linear);
 			m_reflectionMap.name = "PlaneReflection Full Color";
 			m_reflectionMap.useMipMap = true;
-			m_reflectionMap.generateMips = false;
+			//m_reflectionMap.generateMips = false;
 			m_reflectionMap.filterMode = FilterMode.Trilinear;
 			m_reflectionMap.hideFlags = HideFlags.DontSave | HideFlags.NotEditable;
 			m_reflectionDepthMap = new RenderTexture(expectedSize, expectedSize, 0, RenderTextureFormat.RHalf, RenderTextureReadWrite.Linear);

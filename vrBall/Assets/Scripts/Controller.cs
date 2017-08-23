@@ -13,10 +13,10 @@ public class Controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        cam = Camera.main.gameObject;
+        //cam = Camera.main.gameObject;
         
         rb = Player.instance.gameObject.GetComponent<Rigidbody>();
-        rb.freezeRotation = true;
+        //rb.freezeRotation = true;
     }
 	
 	// Update is called once per frame
