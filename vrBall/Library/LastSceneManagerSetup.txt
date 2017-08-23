@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Interactions_Example.unity
+- path: Assets/Scenes/BlueMarble.unity
   isLoaded: 1
   isActive: 1
