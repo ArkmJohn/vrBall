@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/BlueMarble.unity
+- path: Assets/Scenes/Ducab.unity
   isLoaded: 1
   isActive: 1

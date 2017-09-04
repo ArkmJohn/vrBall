@@ -29,7 +29,7 @@ MonoBehaviour:
     m_Settings:
       method: 0
       fxaaSettings:
-        preset: 2
+        preset: 4
       taaSettings:
         jitterSpread: 0.75
         sharpen: 0.3
@@ -43,14 +43,14 @@ MonoBehaviour:
       sampleCount: 10
       downsampling: 1
       forceForwardCompatibility: 0
-      ambientOnly: 0
+      ambientOnly: 1
       highPrecision: 0
   screenSpaceReflection:
     m_Enabled: 1
     m_Settings:
       reflection:
         blendType: 0
-        reflectionQuality: 2
+        reflectionQuality: 0
         maxDistance: 100
         iterationCount: 256
         stepSize: 3
@@ -73,7 +73,7 @@ MonoBehaviour:
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       shutterAngle: 265
       sampleCount: 10
@@ -81,8 +81,8 @@ MonoBehaviour:
   eyeAdaptation:
     m_Enabled: 1
     m_Settings:
-      lowPercent: 57.342087
-      highPercent: 87.34212
+      lowPercent: 59.043846
+      highPercent: 89.04387
       minLuminance: 0.14
       maxLuminance: 2
       exposureCompensation: 0.2
@@ -115,27 +115,27 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 0
-        temperature: 2
+        postExposure: 0.33
+        temperature: 3
         tint: 1
-        hueShift: -1
-        saturation: 0.93
-        contrast: 1.11
+        hueShift: -3
+        saturation: 0.99
+        contrast: 1.06
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
         blue: {x: 0, y: 0, z: 1}
         currentEditingChannel: 0
       colorWheels:
-        mode: 1
+        mode: 0
         log:
-          slope: {r: 0.99662566, g: 0.99325234, b: 1, a: 0}
+          slope: {r: 0.86803436, g: 0.8810319, b: 1, a: 0.073846154}
           power: {r: 1, g: 1, b: 1, a: 0}
           offset: {r: 0.9932517, g: 0.9865044, b: 1, a: 0}
         linear:
-          lift: {r: 0, g: 0, b: 0, a: 0}
-          gamma: {r: 0, g: 0, b: 0, a: 0}
-          gain: {r: 0, g: 0, b: 0, a: 0}
+          lift: {r: 0.81901467, g: 0.8691973, b: 1, a: -0.028717987}
+          gamma: {r: 1, g: 0.9218142, b: 0.9324081, a: -0.11076961}
+          gain: {r: 1, g: 1, b: 1, a: 0.024615385}
       curves:
         master:
           curve:
@@ -279,7 +279,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       spectralTexture: {fileID: 0}
-      intensity: 0.364
+      intensity: 0.215
   grain:
     m_Enabled: 0
     m_Settings:
